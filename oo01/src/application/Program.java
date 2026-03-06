@@ -18,6 +18,6 @@ public class Program {
 		double result = CurrencyConverter.dollarToReal(amount, dollarPrice);
 		System.out.printf("Amount to be paid in reais = %.2f%n", result);
 		
-		sc.close();
+		sc.close(); 
 	}
 }
